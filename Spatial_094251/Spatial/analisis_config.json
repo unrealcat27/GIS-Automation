@@ -1,0 +1,19 @@
+[
+    {
+        "nama_analisis": "Buat Radius Aman Lahan",
+        "algoritma": "native:buffer",
+        "warna_preset": "MERAH_BAHAYA",
+        "parameter": {
+            "DISTANCE": 20.0,
+            "DISSOLVE": true
+        }
+    },
+    {
+        "nama_analisis": "Analisis Kecuraman Lereng",
+        "algoritma": "qgis:slope",
+        "warna_preset": "KUNING_PERINGATAN",
+        "parameter": {
+            "Z_FACTOR": 1.0
+        }
+    }
+]
